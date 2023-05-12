@@ -1,0 +1,226 @@
+/* Definindo estilos para o cabeçalho */
+header {
+    background-color: #8b0000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+  }
+  
+
+
+  .logo h1 {
+    margin: 08px;
+    font-size: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 25px;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  
+  nav ul li:hover{
+    background-color: rgba(230, 20, 20, 0.726);
+    transition: all 0.8s;
+  }
+
+  /* Definindo estilos para a seção principal */
+  main {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 70px;
+    margin-bottom: 200px;
+    text-shadow: 03px 0px rgb(0, 0, 0);
+    color: #fff;
+  }
+  
+  main p {
+    font-size: 25px;
+    margin-bottom: 150px;
+    max-width: 800px;
+    position: relative;
+    top: -15%;
+    text-shadow: 01px 0px rgb(12, 11, 11);
+    color: ivory;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #b30000;
+  }
+  
+  /* Definindo estilos para a seção de quem somos */
+  #quem-somos {
+    background-color: #b30000;
+    padding: 400px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+  }
+  
+#home { background-image: url(img/home3.jpg);
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+  #quem-somos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #quem-somos p {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: auto;
+  }
+
+ /*Definindo estilos para a seção de produtos */
+ #products {
+    padding: 80px;
+    text-align: center;
+    }
+    
+    #products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    
+    .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    width: 300px;
+    overflow: hidden;
+    }
+    
+    .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .card h3 {
+    font-size: 24px;
+    margin: 20px;
+    }
+    
+    .card p {
+    font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
+    }
+    
+    /* Defining styles for the contact section */
+    #contact {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+    }
+    
+    #contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    
+    form {
+    max-width: 600px;
+    margin: auto;
+    }
+    
+    form label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    form input,
+    form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+    
+    form input:focus,
+    form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #fff;
+    }
+    
+    form button {
+    background-color: #fff;
+    color: #8b0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+    }
+    
+    form button:hover {
+    background-color: #f2f2f2;
+    }
+    
+    /* Defining styles for the footer */
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    

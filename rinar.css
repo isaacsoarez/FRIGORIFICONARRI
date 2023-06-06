@@ -1,4 +1,7 @@
-/* Definindo estilos para o cabeçalho */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+/* Definindo ess para o cabeçalho */
 header {
     background-color: #8b0000;
     color: rgb(255, 255, 255);
@@ -9,15 +12,31 @@ header {
     margin-left: -10px;
     margin-top: -10px;
     margin-right: -10px;
+    font-family: 'Poppins', sans-serif;
   }
   
-
+  li {
+    list-style-type: none;
+  }
 
   .logo h1 {
     margin: 08px;
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
   }
   
+  .logo h1:hover
+  {
+    transition: all;
+    color: #b91e1e;
+  }
+
+  .logo img:hover
+  {
+    transition: all;
+    color: #8b0000;
+  }
+
   nav ul {
     list-style: none;
     margin: 0;
@@ -37,8 +56,9 @@ header {
   }
   
   nav ul li:hover{
-    background-color: rgba(230, 20, 20, 0.726);
-    transition: all 0.8s;
+    background-color: #b91e1e;
+    transition: all 0.5s;
+    border-radius: 50%;
   }
 
   /* Definindo estilos para a seção principal */
@@ -55,20 +75,23 @@ header {
   }
   
   main h2 {
-    font-size: 70px;
+    font-size: 90px;
     margin-bottom: 200px;
     text-shadow: 03px 0px rgb(0, 0, 0);
     color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: #ff0000;
   }
   
   main p {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 150px;
     max-width: 800px;
     position: relative;
     top: -15%;
     text-shadow: 01px 0px rgb(12, 11, 11);
     color: ivory;
+    font-family: 'Poppins', sans-serif;
   }
   
   .button {
@@ -88,42 +111,106 @@ header {
   
   /* Definindo estilos para a seção de quem somos */
   #quem-somos {
-    background-color: #b30000;
-    padding: 400px;
-    text-align: center;
+    background-color: #8b0000;
+    padding: 300px;
+    text-align: left;
     margin-left: -10px;
     margin-top: -10px;
     margin-right: -10px;
+    font-family: 'Poppins', sans-serif;
   }
   
 #home { background-image: url(img/home3.jpg);
   margin-left: -10px;
   margin-top: -10px;
   margin-right: -10px;
+  font-family: 'Poppins', sans-serif;
 }
 
-  #quem-somos h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-  }
-  
-  #quem-somos p {
-    font-size: 24px;
-    line-height: 1.5;
-    max-width: 800px;
-    margin: auto;
+#home h2:hover
+  {
+    transition: all;
+    color: #8b0000;
   }
 
- /*Definindo estilos para a seção de produtos */
- #products {
-    padding: 80px;
-    text-align: center;
-    }
-    
-    #products h2 {
-    font-size: 36px;
+
+  #quem-somos h2 {
+    font-size: 75px;
     margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    box-shadow: #333;
+    text-shadow: 03px 0px rgb(0, 0, 0);}
+  
+
+  #quem-somos p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+  }
+  #quem-somos img{
+    background-image: url(img/GADO.jpg);
+    position: relative;
+    margin-top: -2000px;
+    top: -30px;
+    right: -10px;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    margin-left: 50%;
+    border-radius: 50%;
+    border: solid 15px;
+    border-color: #ffffff;
+    transition: all 0.4s;
+  }
+
+  #quem-somos img:hover{
+    border-color: #000000;}
+ 
+  /*Definindo estilos para a seção de produtos */
+ #produtos {
+    padding: 80px;
+    text-align: left;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
     }
+    #produtos3{
+      padding: 80px;
+      text-align: right;
+      justify-content: space-between;
+      margin-top: -2964px;
+      padding: 0px;
+    }
+
+    #produtos img{
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      padding: 5px;
+      border: solid 10px;
+      border-color: #8b0000;
+      transition: all 0.4s;
+    }
+
+    #produtos img:hover{
+      border-color: #8b0000;
+      opacity: 0.6;color: rgba(168, 148, 148, 0.658);
+    }
+
+    #produtos h2 {
+    font-size: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    box-shadow: rgb(170, 3, 3);
+    text-shadow: 03px 0px rgb(170, 3, 3);
+  }
     
     .card-container {
     display: flex;
@@ -131,6 +218,20 @@ header {
     flex-wrap: wrap;
     }
     
+    #produtos h3 {
+      font-size: 35px;
+      color: #000000;
+    box-shadow: rgb(0, 0, 0);
+color: #000000;
+    box-shadow: rgb(170, 3, 3);
+    text-shadow: 03px 0px rgb(170, 3, 3);      
+      }
+
+      #produtos h3:hover{
+        transition: all;
+        box-shadow: rgb(80, 8, 8);
+        text-shadow: 02px 0px rgb(0, 0, 0);      }
+
     .card {
     background-color: #fff;
     border-radius: 5px;
@@ -138,6 +239,7 @@ header {
     margin: 20px;
     width: 300px;
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
     }
     
     .card img {
@@ -158,28 +260,26 @@ header {
     }
     
     /* Defining styles for the contact section */
-    #contact {
+    #contato {
     background-color: #8b0000;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 80px;
-    text-align: center;
-    }
+    text-align: center;}
     
-    #contact h2 {
-    font-size: 36px;
+    #contato h2 {
+    font-size: 35px;
     margin-bottom: 40px;
-    }
+    color: white;
+    box-shadow: rgb(255, 255, 255);}
     
     form {
     max-width: 600px;
-    margin: auto;
-    }
+    margin: auto;}
     
     form label {
     display: block;
-    font-size: 24px;
-    margin-bottom: 10px;
-    }
+    font-size: 20px;
+    margin-bottom: 10px;}
     
     form input,
     form textarea {
@@ -195,11 +295,33 @@ header {
     form input:focus,
     form textarea:focus {
     outline: none;
-    box-shadow: 0 0 5px #fff;
-    }
+    box-shadow: 0 0 5px rgb(255, 255, 255);}
     
     form button {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    }
+    
+    form button:hover {
+    background-color: #ffffff;}
+    
+    /* Defining styles for the footer */
+    .rodapé {
+    background-color: #8b0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .rodapé p {
+    margin: 0;}
+    
+     form button {
+      background-color: rgb(255, 255, 255);
     color: #8b0000;
     padding: 10px 20px;
     border-radius: 5px;
@@ -207,20 +329,6 @@ header {
     font-size: 18px;
     transition: background-color 0.2s ease-in-out;
     }
-    
-    form button:hover {
-    background-color: #f2f2f2;
-    }
-    
-    /* Defining styles for the footer */
-    footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    }
-    
-    footer p {
-    margin: 0;
-    }
-    
+
+    form .button1:hover{
+      background-color: #ffffff}

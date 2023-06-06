@@ -332,3 +332,45 @@ color: #000000;
 
     form .button1:hover{
       background-color: #ffffff}
+
+      /*-----------------------------------------------------*/
+
+/* Estilos para celulares */
+@media screen and (max-width: 480px) {
+  /* Estilos para telas com largura máxima de 480px */
+  /* Por exemplo, dispositivos móveis */
+
+  header {
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+
+  main {
+    padding: 50px 0;
+  }
+
+  #quem-somos {
+    flex-direction: column;
+  }
+
+  #quem-somos img {
+    margin-top: 20px;
+  }
+
+  #produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #produtos li {
+    flex-basis: 100%;
+  }
+
+  #produtos img {
+    width: 100%;
+  }
+}

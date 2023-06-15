@@ -14,7 +14,7 @@ header {
     margin-right: -10px;
     font-family: 'Poppins', sans-serif;
   }
-
+  
 body{
   overflow-x: hidden;
 }
@@ -116,7 +116,7 @@ body{
   /* Definindo estilos para a seção de quem somos */
   #quem-somos {
     background-color: #8b0000;
-    padding: 300px;
+    padding: 200px;
     text-align: left;
     margin-left: -10px;
     margin-top: -10px;
@@ -149,11 +149,11 @@ body{
   
 
   #quem-somos p {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1.5;
     max-width: 600px;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif ;
     color: #ffffff;
   }
   #quem-somos img{
@@ -167,7 +167,7 @@ body{
     height: 100%;
     margin-left: 50%;
     border-radius: 50%;
-    border: solid 15px;
+    border: solid 7px;
     border-color: #ffffff;
     transition: all 0.4s;
   }
@@ -243,7 +243,7 @@ color: #000000;
     margin: 20px;
     width: 300px;
     overflow: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: initial;
     }
     
     .card img {

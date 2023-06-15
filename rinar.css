@@ -314,16 +314,20 @@ color: #000000;
     background-color: #ffffff;}
     
     /* Defining styles for the footer */
-    .rodapé {
+    #rodapé {
     background-color: #8b0000;
     color: #fff;
     text-align: center;
     padding: 20px;
     }
     
-    .rodapé p {
-    margin: 0;}
+   
+    #rodapé img{
+    width: 40px;
+    height: 40px;
     
+    }
+
      form button {
       background-color: rgb(255, 255, 255);
     color: #8b0000;
